@@ -17,3 +17,8 @@ run this as root
 - install some necessary tools like curl, sudo, vim, wget, unzip
 - configure VIM as I like it. perhaps you prefer another editor
 - install NetworkManager and firewalld
+
+## 02a-nagios.sh
+before running this script:
+-- replace all %PASSWORD% with a password for the 'nagios' user account
+-- replace all %USERNAME% with the username you entered when installing Debian
