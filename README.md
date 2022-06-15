@@ -20,5 +20,7 @@ run this as root
 
 ## 02a-nagios.sh
 before running this script:
--- replace all %PASSWORD% with a password for the 'nagios' user account
--- replace all %USERNAME% with the username you entered when installing Debian
+- replace all %PASSWORD% with a password for the 'nagios' user account
+- replace all %USERNAME% with the username you entered when installing Debian
+
+run this script as a user with elevated rights
