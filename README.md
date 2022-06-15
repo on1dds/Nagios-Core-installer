@@ -3,7 +3,7 @@ This is a collection of scripts for completely installing Nagios Core 4.4.6 and 
 
 ## requirements
 - (virtual) machine with minimum 1 CPU, 2 GB RAM and 20 GB diskspace
-- Debian 11 minimal install with SSH server an standard system utilities selected (No desktop environment required)
+- Debian 11 minimal install including SSH server and standard system utilities (No desktop environment required)
 - make sure your user is member of the sudoers group (`usermod -aG sudo username`)
 - set the hostname to its FQDN during installation (e.g. nagios.home.lan)
 
