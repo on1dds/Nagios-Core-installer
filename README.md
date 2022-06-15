@@ -6,10 +6,11 @@ I prefer installing my Nagios server on an old laptop to ensure it keeps running
 ## requirements
 - (virtual) machine with minimum 1 CPU, 2 GB RAM and 20 GB diskspace
 - Debian 11 minimal install with SSH server an standard system utilities selected (No desktop environment required)
-- set fixed IP address and disable wifi if needed (e.g. nmtui) 
+- make sure your user is member of the sudoers group (`usermod -aG sudo username`)
+- set the hostname to its FQDN during installation (e.g. nagios.home.lan)
 
-## 01-basics.sh
-run this as root
+## 10-basics.sh
+run this as root (`su -`)
 - set hostname
 - disable IPv6
 - register free repositories
@@ -18,9 +19,10 @@ run this as root
 - configure VIM as I like it. perhaps you prefer another editor
 - install NetworkManager and firewalld
 
-## 02a-nagios.sh
+after this, it is advised to set fixed IP address and disable wifi (e.g. `nmtui`) 
+
+## 20-nagios-prep.sh
 before running this script:
 - replace all %PASSWORD% with a password for the 'nagios' user account
-- replace all %USERNAME% with the username you entered when installing Debian
 
 run this script as a user with elevated rights
