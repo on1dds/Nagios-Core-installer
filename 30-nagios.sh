@@ -84,3 +84,6 @@ sudo systemctl enable apache2
 sudo systemctl restart apache2
 sudo systemctl enable nagios 
 sudo systemctl start nagios
+
+echo Nagios is ready to use at:
+echo https://$(dnsdomainname -f)/nagios
