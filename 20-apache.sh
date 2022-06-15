@@ -1,10 +1,13 @@
 #!/bin/bash
-#
-# script to install 
-# - nagios core 
-# 
 
-# install and run apache
+
+echo ============================================================================
+echo  Install and configure apache
+echo ============================================================================
+
+
+echo "install and run apache"
+echo "----------------------"
 sudo apt -y install apache2
 
 sudo firewall-cmd --add-service=http --permanent
