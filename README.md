@@ -1,7 +1,5 @@
 # Nagios-Core-installer
-This is a collection of scripts for completely installing Nagios Core 4.4.6 and plugins from source on Debian 11 (Bullseye). This installation also automates the full installation and configuration of apache, including CGI, PHP, certificate generation, HTTPS redirection, ...
-
-I prefer installing my Nagios server on an old laptop to ensure it keeps running on a power outage.
+This is a collection of scripts for completely installing Nagios Core 4.4.6 and plugins from source on Debian 11 (Bullseye). These scripts also automate the full installation and configuration of apache, including CGI, PHP, certificate generation, HTTPS redirection, ...
 
 ## requirements
 - (virtual) machine with minimum 1 CPU, 2 GB RAM and 20 GB diskspace
@@ -49,5 +47,3 @@ run this as sudo user
 - download, compile and install nagios plugins 2.3.3
 
 nagios is now up and running
-
-
