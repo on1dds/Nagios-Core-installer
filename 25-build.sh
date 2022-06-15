@@ -1,9 +1,14 @@
 #!/bin/bash
-#
+
+echo ============================================================================
+echo  Build essentials
+echo ============================================================================
 
 sudo apt -y install build-essential
 
-# Install Perl and addons
+echo "Install Perl and addons"
+echo "-----------------------"
+
 yes | sudo pecl channel-update pecl.php.net
 yes | sudo cpan install XML::LibXML
 yes | sudo cpan install XML::Simple
@@ -14,7 +19,8 @@ yes | sudo cpan install Net::Ping
 yes | sudo cpan install Nagios::Monitoring::Plugin
 
 
-# Install Python and addons
+echo "Install Python and addons"
+echo "-------------------------"
 sudo apt -y install python python3 python3-pip python3-xlrd
 sudo pip install pyvmomi
 sudo pip install tools
