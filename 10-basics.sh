@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo ============================================================================
+echo  basic setup
+echo ============================================================================
+
 #echo "Set hostname"
 #hostnamectl set-hostname monitoring.home.lan
 
