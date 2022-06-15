@@ -11,15 +11,30 @@ I prefer installing my Nagios server on an old laptop to ensure it keeps running
 
 ## 10-basics.sh
 run this as root (`su -`)
-- set hostname
 - disable IPv6
 - register free repositories
 - update and upgrade the system
 - install some necessary tools like curl, sudo, vim, wget, unzip
+- install hardware specific tools
 - configure VIM as I like it. perhaps you prefer another editor
 - install NetworkManager and firewalld
 
 after this, it is advised to set fixed IP address and disable wifi (e.g. `nmtui`) 
+
+## 20-apache.sh
+run this as sudo user
+- install apache2
+- open http and https ports in firewall
+- install and test CGI with a perl script
+- install PHP and modules and enable them in apache
+- show url for testing PHP remotely
+- setup HTTPS
+- generate root certificate
+- generate nagios server certificate
+- register certificates in apache
+- enable redirect from http to https
+- enable SSL in apache2 and set as default''
+- run a configuration test and show 
 
 ## 20-nagios-prep.sh
 before running this script:
