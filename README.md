@@ -41,3 +41,13 @@ run this as sudo user
 - install build essentials
 - install perl and addons
 - install python and addons
+
+## 30-nagios.sh
+run this as sudo user
+- download, compile and install nagios 4.4.6
+- create a nagiosadmin user
+- download, compile and install nagios plugins 2.3.3
+
+nagios is now up and running
+
+
