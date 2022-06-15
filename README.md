@@ -36,8 +36,8 @@ run this as sudo user
 - enable SSL in apache2 and set as default''
 - run a configuration test and show 
 
-## 20-nagios-prep.sh
-before running this script:
-- replace all %PASSWORD% with a password for the 'nagios' user account
-
-run this script as a user with elevated rights
+## 25-build.sh
+run this as sudo user
+- install build essentials
+- install perl and addons
+- install python and addons
