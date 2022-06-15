@@ -1,9 +1,4 @@
 #!/bin/bash
-#
-# script to install 
-# - nagios core 
-# 
-#
 
 echo ============================================================================
 echo  nagios
