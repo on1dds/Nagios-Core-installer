@@ -17,7 +17,7 @@ run this as root (`su -`)
 - configure VIM as I like it. perhaps you prefer another editor
 - install NetworkManager and firewalld
 
-after this, it is advised to set fixed IP address and disable wifi (e.g. `nmtui`) 
+In case you haven't already done so, it is advised to set fixed IP address and disable wifi (e.g. `nmtui`) 
 
 ## 20-apache.sh
 run this as sudo user
